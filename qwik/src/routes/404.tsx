@@ -1,6 +1,6 @@
 import { component$ } from "@builder.io/qwik";
 import type { DocumentHead } from "@builder.io/qwik-city";
-import SecondaryFooter from "~/components/secondary-footer/secondary-footer";
+import SecondaryFooter from "../components/secondary-footer/secondary-footer";
 
 export default component$(() => {
   return (
