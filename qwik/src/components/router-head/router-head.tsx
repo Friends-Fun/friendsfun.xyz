@@ -1,5 +1,5 @@
 import { useDocumentHead, useLocation } from "@builder.io/qwik-city";
-import friendsfun from "../../media/icons/friendsfun/friendsfun-banner.png";
+import friendsfun from "../../media/icons/friendsfun/friendsfun_banner.png";
 import { component$ } from "@builder.io/qwik";
 
 /**
