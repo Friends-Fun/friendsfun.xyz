@@ -1,4 +1,5 @@
 import { component$ } from "@builder.io/qwik";
+import { BsHouse, BsFileEarmarkRuled, BsController, BsJoystick, BsPeople } from "@qwikest/icons/bootstrap";
 import QwikLogo from "../../media/icons/friendsfun/friendsfun_logo_128x128.png?jsx";
 import styles from "./header.module.css";
 
@@ -12,27 +13,27 @@ export default component$(() => {
         <ul>
           <li>
             <a href="/">
-              Home
+              <BsHouse/> Home
             </a>
           </li>
           <li>
             <a href="/rules">
-              Rules
+              <BsFileEarmarkRuled/> Rules
             </a>
           </li>
           <li>
             <a href="/connect">
-              Connect
+              <BsController/> Connect
             </a>
           </li>
           <li>
             <a href="/features">
-              Features
+              <BsJoystick/> Features
             </a>
           </li>
           <li>
             <a href="/roleplay">
-              Role Play
+              <BsPeople/> Role Play
             </a>
           </li>
         </ul>
