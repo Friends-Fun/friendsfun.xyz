@@ -1,39 +1,38 @@
 import { component$ } from "@builder.io/qwik";
-import { QwikLogo } from "../icons/qwik";
+import QwikLogo from "../../media/icons/friendsfun/friendsfun_logo_128x128.png?jsx";
 import styles from "./header.module.css";
 
 export default component$(() => {
   return (
     <header class={styles.header}>
-      <div class={["container", styles.wrapper]}>
+      <div class={styles.wrapper}>
         <div class={styles.logo}>
-          <a href="/" title="qwik">
-            <QwikLogo height={50} width={143} />
-          </a>
+          <QwikLogo />
         </div>
         <ul>
           <li>
-            <a
-              href="https://qwik.dev/docs/components/overview/"
-              target="_blank"
-            >
-              Docs
+            <a href="/">
+              Home
             </a>
           </li>
           <li>
-            <a
-              href="https://qwik.dev/examples/introduction/hello-world/"
-              target="_blank"
-            >
-              Examples
+            <a href="/rules">
+              Rules
             </a>
           </li>
           <li>
-            <a
-              href="https://qwik.dev/tutorial/welcome/overview/"
-              target="_blank"
-            >
-              Tutorials
+            <a href="/connect">
+              Connect
+            </a>
+          </li>
+          <li>
+            <a href="/features">
+              Features
+            </a>
+          </li>
+          <li>
+            <a href="/roleplay">
+              Role Play
             </a>
           </li>
         </ul>
