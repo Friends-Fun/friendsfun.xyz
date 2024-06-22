@@ -1,0 +1,23 @@
+{
+  "name": "friendsfun.xyz",
+  "version": "1.0.0",
+  "description": "The friendsfun website",
+  "scripts": {
+    "dev": "cd qwik && npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Friends-Fun/friendsfun.xyz.git"
+  },
+  "keywords": [
+    "friendsfun",
+    "minecraft",
+    "website"
+  ],
+  "author": "upayanmazumder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Friends-Fun/friendsfun.xyz/issues"
+  },
+  "homepage": "https://github.com/Friends-Fun/friendsfun.xyz#readme"
+}
